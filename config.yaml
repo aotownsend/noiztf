@@ -1,0 +1,175 @@
+upperclasses:
+  agn:
+    - AGN
+    - AGN?
+    - QSO
+    - QSO?
+    - NLSy1?
+    - NLSy
+    - CLAGN
+    - NLS1
+    - Seyfert
+    - blazar
+    - blazar?
+    - Blazar
+    - galaxy
+    - BL Lac
+    - Galactic Nuclei
+    - LINER
+
+  bogus:
+    - bogus
+    - duplicate
+    - bogus?
+
+  other:
+    - FBOT
+    - rock
+    - rock?
+    - LRN
+    - LRN?
+    - ILRT
+    - ILRT?
+    - Ca-rich
+    - afterglow
+    - asteroid
+
+  slsn:
+    - SLSN-I
+    - SLSN-I?
+    - SLSN-I.5
+    - SLSN-I.5?
+    - SLSN-II
+    - SLSN-II?
+    - II-SL
+    - Ic-SL
+
+  sn_ia:
+    - Ia
+    - Ia-91T
+    - Ia-91T?
+    - Ia-91T-like
+    - Ia-norm
+
+  sn_ia_pec:
+    - Ia-00cx
+    - Ia-02cx
+    - Ia-03fg
+    - Ia-18byg
+    - Ia-99aa
+    - Ia-pec
+    - Iax
+    - Iax[02cx-like]
+    - Ia?
+    - Ia-91bg
+    - Ia-91bg?
+    - Ia-91bg-like
+    - Ia-CSM
+    - Ia-CSM?
+
+  sn_ibc:
+    - Ib-norm
+    - Ib
+    - Ib?
+    - Ib/c
+    - Ib/c?
+    - Ic
+    - Ic?
+    - Ic-BL
+    - Ic-BL?
+
+  sn_ibc_pec:
+    - Ib-pec
+    - Ibn
+    - Ibn?
+    - Icn
+
+  sn_ii:
+    - II
+    - II?
+    - II-norm
+    - IIP
+    - IIL
+
+  sn_ii_pec:
+    - IIb
+    - IIb?
+    - IIb-pec
+    - II-pec
+
+  sn_iin:
+    - IIn
+    - IIn?
+    
+  star:
+    - nova
+    - nova?
+    - nova-like
+    - AM CVn
+    - CV?
+    - CV
+    - varstar
+    - varstar?
+    - VarStar
+    - nova?
+    - star
+    - star?
+    - LBV
+    - Var
+    - var
+    - var?
+    - microlensing
+
+  tde:
+    - Tidal Disruption Event
+    - TDE
+
+  unclass:
+    - "-"
+    - None
+    - Anomolous
+
+sncosmo_templates:
+  SN Ia: salt2
+  SN Ia?: salt2
+  SN Iax: salt2
+  SN Ia-CSM: salt2
+  SN Ia-CSM?: salt2
+  SN Ia-pec: salt2
+  SN Ia-03fg: salt2
+  SN Ia-norm: salt2
+  SN Ia-91T: salt2
+  SN Ia-91T?: salt2
+  SN Ia-91T-like: salt2
+  SN Ia-91bg: salt2
+  SN Ia-91bg?: salt2
+  SN Ia-91bg-like: salt2
+  SN Ia-99aa: salt2
+  SN Ia-00cx: salt2
+  SN Ia-02cx: salt2
+  SN Iax[02cx-like]: salt2
+  SN Ia-18byg: salt2
+  SN Ib: v19-iptf13bvn-corr
+  SN Ib?: v19-iptf13bvn-corr
+  SN Ib-norm: v19-iptf13bvn-corr
+  SN Ib-pec: v19-iptf13bvn-corr
+  SN Ibn: v19-iptf13bvn-corr
+  SN Ibn?: v19-iptf13bvn-corr
+  SN Ib/c: v19-iptf13bvn-corr
+  SN Ib/c?: v19-iptf13bvn-corr
+  SN Ic: v19-2013ge-corr
+  SN Ic?: v19-2013ge-corr
+  SN Icn: v19-2013ge-corr
+  SN Ic-BL: v19-2012ap-corr
+  SN Ic-BL?: v19-2012ap-corr
+  SN II: v19-2016bkv-corr
+  SN II?: v19-2016bkv-corr
+  SN II-norm: v19-2016bkv-corr
+  SN II-pec: v19-2016bkv-corr
+  SN IIb: v19-2016gkg-corr
+  SN IIb?: v19-2016gkg-corr
+  SN IIb-pec: v19-2016gkg-corr
+  SN IIL: s11-2004hx
+  SN IIn: v19-2011ht-corr
+  SN IIn?: v19-2011ht-corr
+  SN IIP: snana-2007iz
