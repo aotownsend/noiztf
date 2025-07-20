@@ -1,0 +1,31 @@
+# macOS system files
+.DS_Store
+
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+
+# OS-generated files
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# Environment files
+.env
+
+# Build/output directories
+dist/
+build/
