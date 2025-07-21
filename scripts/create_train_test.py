@@ -10,12 +10,12 @@ logger = logging.getLogger(__name__)
 
 if __name__ == "__main__":
     sample = CreateLightcurves(
-        bts_baseline_dir = "/Users/alicetownsend/new_noiztf/bts_basecorr",
+        bts_baseline_dir = "add_path_to_lightcurve_directory_here",
         name = "ztf_train",
         output_format="parsnip",
-        train_dir="fin/peculiar_test/scale10_unbalanced_z2_sncut_nosubsamp_nocadscale_seed0/data",
-        plot_dir="fin/peculiar_test/scale10_unbalanced_z2_sncut_nosubsamp_nocadscale_seed0/plot",
-        test_dir = "fin/peculiar_test/scale10_unbalanced_z2_sncut_nosubsamp_nocadscale_seed0/data",
+        train_dir="traindata",
+        plot_dir="plot",
+        test_dir = "testdata",
         seed=0, #0 #99
         weights = {      #snia_scale2 #snia_scale3 #snia_scale4 #snia_scale5 #hybrid_snia_scale2_10
                 "sn_ia": 10,  #2 #3 #4 #5 #10

@@ -180,7 +180,7 @@ class CreateLightcurves(object):
 
         #if req.ok:
         if self.bts_df == None:
-            df = pd.read_csv('../data/bts_20250120.csv')
+            df = pd.read_csv('../data/bts_20250120.csv') # Add BTS CSV file here (or add query)
             cols = df.columns
             newcols = {col:'bts_'+col for col in cols}
             df.rename(columns=newcols, inplace=True)
@@ -196,7 +196,7 @@ class CreateLightcurves(object):
             self.bts_df.drop(['bts_peakt','bts_lastfilt', 'bts_lastmag', 'bts_lasttnow', 'bts_vissave', 'bts_vispeak30', 'bts_visnow', 'bts_RA', 'bts_Dec'], axis=1, inplace=True)
 
         # Add extra SLSN
-        slsn_df = pd.read_csv('../data/slsn_dat.csv')
+        slsn_df = pd.read_csv('../data/slsn_dat.csv')   # Add extra SLSN csv file here (or remove)
         slsn_df['name'] = slsn_df['ztfid']
         slsn_columns = [
                 'bts_IAUID', 'bts_peakfilt', 'bts_peakmag', 'bts_peakabs',

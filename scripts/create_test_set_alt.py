@@ -7,12 +7,12 @@ logger = logging.getLogger(__name__)
 
 if __name__ == "__main__":
     sample = CreateTestLightcurves(
-        test_lc_dir = '/Users/alicetownsend/new_noiztf/combine_testset/lc_basecorr',
-        test_headers_dir = '/Users/alicetownsend/new_noiztf/combine_testset/combine_testset.csv',
-        train_dir="/Users/alicetownsend/new_noiztf/ztfparsnip_old/fin/test/ALT/snia_scale5_balanced_z2_sncut_nosubsamp_nocadscale_seed0",
-        plot_dir="/Users/alicetownsend/new_noiztf/combine_testset/plot_cuts",
+        test_lc_dir = 'add_path_to_lightcurve_directory_here',
+        test_headers_dir = 'add_path_to_CSV_here',
+        train_dir="data",
+        plot_dir="plot",
         classkey = 'upperclasses',
-        name = "ztf_nopec_qualcut_magcut18.5_testdata_snia_scale5_balanced_z2_sncut_nosubsamp_nocadscale_seed0",
+        name = "name_here",
         weights = {      #snia_scale2 #snia_scale3 #snia_scale4 #snia_scale5 #hybrid_snia_scale2_10
                 "sn_ia": 5,  #2 #3 #4 #5 #10
                 "sn_ii": 18,  #7 #11 #14 #18 #7

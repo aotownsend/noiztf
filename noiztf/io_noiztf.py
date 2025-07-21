@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 alphabet = string.ascii_lowercase + string.digits
 
 if ztfdir := os.getenv("ZTFDATA"):
-    BASE_DIR = Path("/Users/alicetownsend/new_noiztf")
+    BASE_DIR = Path("add_path_to_directory_here") # Add path to directory here
     BTS_LC_BASELINE_DIR = BASE_DIR / "bts_lcs"
     TRAIN_DATA = BASE_DIR / "train"
     PLOT_DIR = BASE_DIR / "plots"
